@@ -1,8 +1,6 @@
 {
-  "name": "fe-server",
-  "workspaces": [
-    "app"
-  ],
+  "name": "@fe-server/boilerplate",
+  "workspaces": ["app"],
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
     "@types/node": "20",
