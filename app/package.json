@@ -8,7 +8,10 @@
   },
   "nodemonConfig": {
     "watch": "src",
-    "ignore": ["dist/**", "node_mouldes/**"],
+    "ignore": [
+      "dist/**",
+      "node_mouldes/**"
+    ],
     "ext": "ts",
     "exec": "rm -rf ./dist && yarn node ./esbuild.config.js && node --loader=extensionless ./dist/index.js | yarn pino-pretty --singleLine"
   },
